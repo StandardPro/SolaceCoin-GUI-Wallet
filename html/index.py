@@ -516,8 +516,14 @@ html ="""
                                                             'tx_status': tx_status_text,
                                                             'tx_fa_icon': tx['direction'] == "in" ? "mail-forward" : "reply",
                                                             'tx_id': tx['txid'],
+<<<<<<< HEAD
                                                             'tx_payment_id': tx['payment_id'], 
                                                             'tx_amount': printMoney(tx['amount']/10000000.),
+=======
+                                                            'tx_payment_id': tx['payment_id'],
+                                                            'tx_amount': printMoney(tx['amount']
+                                                            0000000.),
+>>>>>>> 7938ea28847730db37f27d37d4c231cd4bf27b0b
                                                             'tx_fee': printMoney(tx['fee']/10000000.),
                                                             'tx_fee_hide': tx['fee'] > 0 ? '' : 'tx-fee-hide',
                                                             'tx_date': dateConverter(tx['timestamp']),
@@ -684,7 +690,11 @@ html ="""
                                                             'tx_status': tx_status_text,
                                                             'tx_fa_icon': tx['direction'] == "in" ? "mail-forward" : "reply",
                                                             'tx_id': tx['txid'],
+<<<<<<< HEAD
                                                             'tx_payment_id': tx['payment_id'], 
+=======
+                                                            'tx_payment_id': tx['payment_id'],
+>>>>>>> 7938ea28847730db37f27d37d4c231cd4bf27b0b
                                                             'tx_amount': printMoney(tx['amount']/10000000.),
                                                             'tx_fee': printMoney(tx['fee']/10000000.),
                                                             'tx_fee_hide': tx['fee'] > 0 ? '' : 'tx-fee-hide',
