@@ -836,7 +836,7 @@ html ="""
                 }
                 else if(!((address.substr(0, 2) == "So" && address.length == 97) || 
                     (address.substr(0, 2) == "Si"  && address.length == 109) || 
-                    (address.substr(0, 2) == "Sa"  && address.length == 97)))
+                    (address.substr(0, 2) == "Sa"  && address.length == 98)))
                 {
                     errors.push("Address is not valid!");
                     $('#send_address').parent().addClass('has-error');
