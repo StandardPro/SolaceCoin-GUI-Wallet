@@ -4,7 +4,7 @@ Copyright (c) 2017, Sumokoin.org
 
 **One of the most easy-to-use, intuitive GUI (full) wallets in crypto.**
 
-![](https://www.sumokoin.org/images/sumokoin-gui-wallet-v0.0.1-b2.png)
+![](https://www.solace-coin.com/wp-content/uploads/2018/04/GUI-WALLET-PNG.png 418w, https://www.solace-coin.com/wp-content/uploads/2018/04/GUI-WALLET-PNG-300x244.png 300w)
 
 
 # Installation & running from source codes
